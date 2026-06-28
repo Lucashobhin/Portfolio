@@ -12,6 +12,11 @@ import Certifications from './components/Certifications'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 
+// --- FEATURE TOGGLES ---
+// Change these to true when you want to show them again!
+const SHOW_PROJECTS = false;
+const SHOW_CERTIFICATIONS = false;
+
 function App() {
   useEffect(() => {
     AOS.init({ duration: 1000, once: true, easing: 'ease-out' })
@@ -25,8 +30,11 @@ function App() {
       <About />
       <Expertise />
       <Skills />
-      <Projects />
-      <Certifications />
+      
+      {/* Conditional Rendering Blocks */}
+      {SHOW_PROJECTS && <Projects />}
+      {SHOW_CERTIFICATIONS && <Certifications />}
+      
       <Contact />
       <Footer />
     </>

@@ -30,7 +30,7 @@ const About = () => {
             <span className="text-black text-xl font-black mx-1 tracking-wide uppercase">
               Shobhin Jose
             </span>
-            , a Full-Stack & DevOps Engineer who builds backend systems with FastAPI and Node.js, automates deployments with Docker and CI/CD, and delivers end-to-end ERP solutions.
+            ,a Full-Stack & DevOps Engineer focused on building high-performance backend systems with FastAPI and dynamic frontends using React. From automated container deployments via Docker and CI/CD pipelines to end-to-end ERP solutions, I specialize in engineering reliable infrastructure that streamlines complex business workflows.
           </p>
 
           {/* Logos */}
